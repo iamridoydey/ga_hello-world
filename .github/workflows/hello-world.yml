@@ -8,3 +8,10 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - run: echo "Hello, World by Prite"
+  
+  # Runs on python
+  print-hello-in-python:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: print("Hello, World from python")
+        shell: python
